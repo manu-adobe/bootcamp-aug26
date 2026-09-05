@@ -54,6 +54,23 @@
   margin: 0;
 }
 
+.banner .banner-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgb(0 0 0 / 40%);
+}
+
+.banner .banner-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgb(0 0 0 / 40%);
+}
+
+.banner .banner-content p {
+  font-size: 1.25rem;
+  text-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+}
+
 /* dark variant: slightly muted overlay for contrast */
 .banner.dark .banner-content p,
 .banner.dark .banner-content h1,
@@ -66,29 +83,12 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgb(0 0 0 / 45%);
   z-index: 1;
 }
 
 .banner.dark .banner-content {
   z-index: 2;
-}
-
-.banner .banner-content h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-}
-
-.banner .banner-content h2 {
-  font-size: 2rem;
-  font-weight: 700;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-}
-
-.banner .banner-content p {
-  font-size: 1.25rem;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 @media (width >= 900px) {
