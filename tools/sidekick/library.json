@@ -1,7 +1,7 @@
 {
-  "total": 7,
+  "total": 8,
   "offset": 0,
-  "limit": 7,
+  "limit": 8,
   "data": [
     {
       "name": "Hero",
@@ -11,6 +11,11 @@
     {
       "name": "Banner",
       "path": "/blocks/banner/banner",
+      "type": "block"
+    },
+    {
+      "name": "Breadcrumb",
+      "path": "/blocks/breadcrumb/breadcrumb",
       "type": "block"
     },
     {
